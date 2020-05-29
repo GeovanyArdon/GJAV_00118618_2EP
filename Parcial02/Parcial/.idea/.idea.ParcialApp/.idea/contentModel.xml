@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Geovany\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Geovany\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_ParcialApp.-1676224601.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Geovany\Desktop\ahre\Parcial" t="IncludeFlat">
+      <e p="ClaseGUI05" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClaseGUI05.csproj" t="IncludeRecursive" />
+        <e p="Controlador" t="Include">
+          <e p="Encriptador.cs" t="Include" />
+        </e>
+        <e p="Modelo" t="Include">
+          <e p="Address.cs" t="Include" />
+          <e p="Appuser.cs" t="Include" />
+          <e p="Conexion.cs" t="Include" />
+          <e p="ConsultarAddress.cs" t="Include" />
+          <e p="ConsultarAppuser.cs" t="Include" />
+          <e p="ConsultarNegocio.cs" t="Include" />
+          <e p="ConsultarProducto.cs" t="Include" />
+          <e p="Frecuencia.cs" t="Include" />
+          <e p="Negocio.cs" t="Include" />
+          <e p="Producto.cs" t="Include" />
+          <e p="Registro.cs" t="Include" />
+          <e p="RegistroDAO.cs" t="Include" />
+          <e p="Usuario.cs" t="Include" />
+          <e p="UsuarioDAO.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="uca_logo.jpg" t="Include" />
+          <e p="unnamed.png" t="Include" />
+          <e p="unnamed1.png" t="Include" />
+        </e>
+        <e p="Vista" t="Include">
+          <e p="frmCambiarContra.cs" t="Include" />
+          <e p="frmCambiarContra.Designer.cs" t="Include" />
+          <e p="frmCambiarContra.resx" t="Include" />
+          <e p="frmInicioSesion.cs" t="Include" />
+          <e p="frmInicioSesion.Designer.cs" t="Include" />
+          <e p="frmInicioSesion.resx" t="Include" />
+          <e p="frmPrincipal.cs" t="Include" />
+          <e p="frmPrincipal.Designer.cs" t="Include" />
+          <e p="frmPrincipal.resx" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="ParcialApp.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
