@@ -1,34 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed561c6d-e105-4161-ab43-0054dcf00fc3" name="Default Changelist" comment="" />
+    <list default="true" id="ed561c6d-e105-4161-ab43-0054dcf00fc3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ClaseGUI05/Modelo/Orden.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ParcialApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ParcialApp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ParcialApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ParcialApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClaseGUI05/ClaseGUI05.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ClaseGUI05/ClaseGUI05.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClaseGUI05/Vista/frmPrincipal.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClaseGUI05/Vista/frmPrincipal.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClaseGUI05/Vista/frmPrincipal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClaseGUI05/Vista/frmPrincipal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClaseGUI05/Vista/frmPrincipal.resx" beforeDir="false" afterPath="$PROJECT_DIR$/ClaseGUI05/Vista/frmPrincipal.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClaseGUI05/bin/Debug/ClaseGUI05.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ClaseGUI05/bin/Debug/ClaseGUI05.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClaseGUI05/bin/Debug/ClaseGUI05.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ClaseGUI05/bin/Debug/ClaseGUI05.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClaseGUI05/obj/Debug/ClaseGUI05.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClaseGUI05/obj/Debug/ClaseGUI05.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClaseGUI05/obj/Debug/ClaseGUI05.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ClaseGUI05/obj/Debug/ClaseGUI05.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClaseGUI05/obj/Debug/ClaseGUI05.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClaseGUI05/obj/Debug/ClaseGUI05.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClaseGUI05/obj/Debug/ClaseGUI05.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ClaseGUI05/obj/Debug/ClaseGUI05.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClaseGUI05/obj/Debug/ClaseGUI05.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ClaseGUI05/obj/Debug/ClaseGUI05.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClaseGUI05/obj/Debug/ClaseGUI05.frmPrincipal.resources" beforeDir="false" afterPath="$PROJECT_DIR$/ClaseGUI05/obj/Debug/ClaseGUI05.frmPrincipal.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClaseGUI05/obj/Debug/ClaseGUI05.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ClaseGUI05/obj/Debug/ClaseGUI05.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/RegistroDAO.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/App.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/Registro.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/Negocio.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Controlador/Encriptador.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/ConsultarAddress.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/Address.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/ConsultarAppuser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/Producto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Vista/frmPrincipal.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/Appuser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Vista/frmCambiarContra.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/ConsultarNegocio.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/ConsultarProducto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Vista/frmInicioSesion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Vista/frmInicioSesion.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/Usuario.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/Frecuencia.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/UsuarioDAO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/Conexion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/Usuario.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/Address.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/Negocio.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/ConsultarNegocio.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/UsuarioDAO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/ConsultarAppuser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/Registro.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/RegistroDAO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Vista/frmInicioSesion.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Vista/frmInicioSesion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Vista/frmCambiarContra.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Vista/frmPrincipal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/App.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Controlador/Encriptador.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/ConsultarOrden.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/Producto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/Orden.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/Appuser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/Frecuencia.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClaseGUI05/Modelo/ConsultarProducto.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -55,11 +77,14 @@
         <option value="$PROJECT_DIR$/ClaseGUI05/Modelo/ConsultarNegocio.cs" />
         <option value="$PROJECT_DIR$/ClaseGUI05/Modelo/Producto.cs" />
         <option value="$PROJECT_DIR$/ClaseGUI05/Modelo/ConsultarProducto.cs" />
+        <option value="$PROJECT_DIR$/ClaseGUI05/Modelo/Orden.cs" />
         <option value="$PROJECT_DIR$/ClaseGUI05/Vista/frmPrincipal.cs" />
+        <option value="$PROJECT_DIR$/ClaseGUI05/Modelo/ConsultarOrden.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1cVRh3vzJTkAQe0i9LKQ1532TqM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -68,6 +93,7 @@
   <component name="PropertiesComponent">
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
@@ -107,6 +133,7 @@
       <workItem from="1590710109475" duration="26000" />
       <workItem from="1590710433473" duration="9612000" />
       <workItem from="1590720815591" duration="84000" />
+      <workItem from="1590722757189" duration="4639000" />
     </task>
     <servers />
   </component>
@@ -115,23 +142,34 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="818" height="94" key="GridCell.Tab.0.bottom" timestamp="1590720397396">
+    <state width="818" height="94" key="GridCell.Tab.0.bottom" timestamp="1590727364100">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="818" height="94" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1590720397396" />
-    <state width="818" height="94" key="GridCell.Tab.0.center" timestamp="1590720397396">
+    <state width="818" height="94" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1590727364100" />
+    <state width="818" height="94" key="GridCell.Tab.0.center" timestamp="1590727364100">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="818" height="94" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1590720397396" />
-    <state width="818" height="94" key="GridCell.Tab.0.left" timestamp="1590720397396">
+    <state width="818" height="94" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1590727364100" />
+    <state width="818" height="94" key="GridCell.Tab.0.left" timestamp="1590727364100">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="818" height="94" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1590720397396" />
-    <state width="818" height="94" key="GridCell.Tab.0.right" timestamp="1590720397396">
+    <state width="818" height="94" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1590727364100" />
+    <state width="818" height="94" key="GridCell.Tab.0.right" timestamp="1590727364100">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="818" height="94" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1590720397396" />
+    <state width="818" height="94" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1590727364100" />
     <state x="432" y="237" key="Rider.ProjectTemplateDialog.Size" timestamp="1590720255451">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -144,5 +182,24 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1590665411998" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ClaseGUI05/Modelo/ConsultarOrden.cs</url>
+          <line>20</line>
+          <properties documentPath="$PROJECT_DIR$/ClaseGUI05/Modelo/ConsultarOrden.cs" initialLine="20">
+            <startOffsets>
+              <option value="729" />
+            </startOffsets>
+            <endOffsets>
+              <option value="730" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

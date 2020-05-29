@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Geovany\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Geovany\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_ParcialApp.-1676224601.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Geovany\Desktop\ahre\Parcial" t="IncludeFlat">
+    <e p="C:\Users\Geovany\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_ParcialApp.-86302275.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Geovany\Desktop\Parcial02\GJAV_00118618_2EP\Parcial02\Parcial" t="IncludeFlat">
       <e p="ClaseGUI05" t="IncludeRecursive">
         <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
@@ -18,9 +18,11 @@
           <e p="ConsultarAddress.cs" t="Include" />
           <e p="ConsultarAppuser.cs" t="Include" />
           <e p="ConsultarNegocio.cs" t="Include" />
+          <e p="ConsultarOrden.cs" t="Include" />
           <e p="ConsultarProducto.cs" t="Include" />
           <e p="Frecuencia.cs" t="Include" />
           <e p="Negocio.cs" t="Include" />
+          <e p="Orden.cs" t="Include" />
           <e p="Producto.cs" t="Include" />
           <e p="Registro.cs" t="Include" />
           <e p="RegistroDAO.cs" t="Include" />

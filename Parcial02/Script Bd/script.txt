@@ -1,0 +1,75 @@
+CREATE TABLE public.address
+(
+    "idAddress" integer NOT NULL DEFAULT nextval('"address_idAddress_seq"'::regclass),
+    "idUser" integer,
+    address text COLLATE pg_catalog."default",
+    CONSTRAINT address_pkey PRIMARY KEY ("idAddress")
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.address
+    OWNER to postgres;
+
+
+
+
+CREATE TABLE public.apporder
+(
+    "idOrder" integer NOT NULL DEFAULT nextval('"apporder_idOrder_seq"'::regclass),
+    "createDate" character varying(50) COLLATE pg_catalog."default",
+    "idProducto" integer,
+    "idAddress" integer,
+    CONSTRAINT apporder_pkey PRIMARY KEY ("idOrder")
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.apporder
+    OWNER to postgres;
+
+
+CREATE TABLE public.appuser
+(
+    "idUser" integer NOT NULL DEFAULT nextval('"appuser_idUser_seq"'::regclass),
+    fullname character varying(100) COLLATE pg_catalog."default",
+    username character varying(50) COLLATE pg_catalog."default",
+    password character varying(50) COLLATE pg_catalog."default",
+    "userType" boolean,
+    CONSTRAINT appuser_pkey PRIMARY KEY ("idUser")
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.appuser
+    OWNER to postgres;
+
+
+
+CREATE TABLE public.business
+(
+    "idBusiness" integer NOT NULL DEFAULT nextval('"business_idBusiness_seq"'::regclass),
+    name character varying COLLATE pg_catalog."default",
+    description text COLLATE pg_catalog."default",
+    CONSTRAINT business_pkey PRIMARY KEY ("idBusiness")
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.business
+    OWNER to postgres;
+
+
+
+CREATE TABLE public.product
+(
+    "idProducto" integer NOT NULL DEFAULT nextval('"product_idProducto_seq"'::regclass),
+    "idBusiness" integer,
+    name character varying COLLATE pg_catalog."default",
+    CONSTRAINT product_pkey PRIMARY KEY ("idProducto")
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE public.product
+    OWNER to postgres;

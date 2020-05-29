@@ -111,9 +111,11 @@
     <Compile Include="Modelo\ConsultarAddress.cs" />
     <Compile Include="Modelo\ConsultarAppuser.cs" />
     <Compile Include="Modelo\ConsultarNegocio.cs" />
+    <Compile Include="Modelo\ConsultarOrden.cs" />
     <Compile Include="Modelo\ConsultarProducto.cs" />
     <Compile Include="Modelo\Frecuencia.cs" />
     <Compile Include="Modelo\Negocio.cs" />
+    <Compile Include="Modelo\Orden.cs" />
     <Compile Include="Modelo\Producto.cs" />
     <Compile Include="Modelo\Registro.cs" />
     <Compile Include="Modelo\RegistroDAO.cs" />

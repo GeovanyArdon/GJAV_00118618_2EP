@@ -65,6 +65,10 @@ namespace ClaseGUI05
             dataproducto.DataSource = null;
                         dataproducto.DataSource=ayuda;
             
+                        List<Orden>helpme=ConsultarOrden.getLista();
+                        dateOrden.DataSource = null;
+                        dateOrden.DataSource=helpme;
+                        
             // Menu desplegable (combo box)
             cmbuser.DataSource = null;
             cmbuser.ValueMember = "userid";
@@ -353,6 +357,45 @@ namespace ClaseGUI05
         }
 
         private void button3_Click(object sender, EventArgs e)
+        {
+            actualizarControles();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Orden r = new Orden();
+
+            int ahre = 1;
+            int ah=2;
+            
+            r.date= txtorden.Text;
+            r.idProducto=ahre;
+            r.idAddress = ah;
+            
+                      
+                      
+                      
+            try
+            {
+                // Enviar a modelo, el se encargara de almacenarlo en la BDD
+                ConsultarOrden.agregarOrden(r);
+                          
+                MessageBox.Show("Cliente agregado exitosamente", "HugoApp",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                          
+                        
+                      
+                // Actualizar la vista, los ComboBox de la primer pestana
+                actualizarControles();
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show("Error: " + exception.Message, "HugoApp",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
         {
             actualizarControles();
         }

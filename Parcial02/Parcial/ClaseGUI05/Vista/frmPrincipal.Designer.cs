@@ -72,6 +72,7 @@ namespace ClaseGUI05
             this.radAdmin = new System.Windows.Forms.RadioButton();
             this.radUsuario = new System.Windows.Forms.RadioButton();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.combouserdirrecion = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.buttondirrecion = new System.Windows.Forms.Button();
@@ -81,32 +82,40 @@ namespace ClaseGUI05
             this.comboAdress = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.Negocio = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtnegocio = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.combonegocio = new System.Windows.Forms.ComboBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.Actualizar = new System.Windows.Forms.Button();
-            this.label14 = new System.Windows.Forms.Label();
-            this.txtdes = new System.Windows.Forms.TextBox();
-            this.datanegocio = new System.Windows.Forms.DataGridView();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.txtproducto = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.dataproducto = new System.Windows.Forms.DataGridView();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label16 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.datanegocio = new System.Windows.Forms.DataGridView();
+            this.txtdes = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.Actualizar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.combonegocio = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtnegocio = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
             this.button4 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.dataproducto = new System.Windows.Forms.DataGridView();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.txtproducto = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txtorden = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.dateOrden = new System.Windows.Forms.DataGridView();
+            this.button5 = new System.Windows.Forms.Button();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.tabContenedor.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox7)).BeginInit();
@@ -125,14 +134,17 @@ namespace ClaseGUI05
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.datagrid)).BeginInit();
             this.Negocio.SuspendLayout();
-            this.tabPage6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize) (this.datanegocio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.datanegocio)).BeginInit();
+            this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize) (this.dataproducto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox12)).BeginInit();
+            this.tabPage7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.dateOrden)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox13)).BeginInit();
             this.SuspendLayout();
             // 
             // lblBienvenida
@@ -267,10 +279,10 @@ namespace ClaseGUI05
             this.tabPage2.Controls.Add(this.btnCrearUsuario);
             this.tabPage2.Controls.Add(this.txtfullname);
             this.tabPage2.Controls.Add(this.label1);
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(873, 511);
+            this.tabPage2.Size = new System.Drawing.Size(873, 513);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Crear usuarios";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -425,9 +437,9 @@ namespace ClaseGUI05
             this.tabPage3.Controls.Add(this.label2);
             this.tabPage3.Controls.Add(this.groupBox2);
             this.tabPage3.Controls.Add(this.groupBox1);
-            this.tabPage3.Location = new System.Drawing.Point(4, 24);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(873, 511);
+            this.tabPage3.Size = new System.Drawing.Size(873, 513);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Mantenimiento";
             // 
@@ -589,12 +601,22 @@ namespace ClaseGUI05
             this.tabPage4.Controls.Add(this.label8);
             this.tabPage4.Controls.Add(this.comboAdress);
             this.tabPage4.Controls.Add(this.label3);
-            this.tabPage4.Location = new System.Drawing.Point(4, 24);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(873, 511);
+            this.tabPage4.Size = new System.Drawing.Size(873, 513);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Dirrecion";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = ((System.Drawing.Image) (resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(709, 13);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(112, 126);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 14;
+            this.pictureBox10.TabStop = false;
             // 
             // combouserdirrecion
             // 
@@ -695,12 +717,152 @@ namespace ClaseGUI05
             this.Negocio.Controls.Add(this.label11);
             this.Negocio.Controls.Add(this.txtnegocio);
             this.Negocio.Controls.Add(this.label10);
-            this.Negocio.Location = new System.Drawing.Point(4, 24);
+            this.Negocio.Location = new System.Drawing.Point(4, 22);
             this.Negocio.Name = "Negocio";
-            this.Negocio.Size = new System.Drawing.Size(873, 511);
+            this.Negocio.Size = new System.Drawing.Size(873, 513);
             this.Negocio.TabIndex = 4;
             this.Negocio.Text = "Negocio";
             this.Negocio.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = ((System.Drawing.Image) (resources.GetObject("pictureBox11.Image")));
+            this.pictureBox11.Location = new System.Drawing.Point(141, 16);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(93, 97);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 26;
+            this.pictureBox11.TabStop = false;
+            // 
+            // datanegocio
+            // 
+            this.datanegocio.AllowUserToAddRows = false;
+            this.datanegocio.AllowUserToDeleteRows = false;
+            this.datanegocio.BackgroundColor = System.Drawing.Color.White;
+            this.datanegocio.ColumnHeadersHeightSizeMode =
+                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.datanegocio.Location = new System.Drawing.Point(388, 98);
+            this.datanegocio.Name = "datanegocio";
+            this.datanegocio.ReadOnly = true;
+            this.datanegocio.Size = new System.Drawing.Size(477, 250);
+            this.datanegocio.TabIndex = 25;
+            // 
+            // txtdes
+            // 
+            this.txtdes.Location = new System.Drawing.Point(40, 250);
+            this.txtdes.Name = "txtdes";
+            this.txtdes.Size = new System.Drawing.Size(298, 23);
+            this.txtdes.TabIndex = 24;
+            // 
+            // label14
+            // 
+            this.label14.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(-8, 200);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(360, 47);
+            this.label14.TabIndex = 23;
+            this.label14.Text = "Descripcion";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Actualizar
+            // 
+            this.Actualizar.Location = new System.Drawing.Point(568, 388);
+            this.Actualizar.Name = "Actualizar";
+            this.Actualizar.Size = new System.Drawing.Size(143, 46);
+            this.Actualizar.TabIndex = 22;
+            this.Actualizar.Text = "Actualizar";
+            this.Actualizar.UseVisualStyleBackColor = true;
+            this.Actualizar.Click += new System.EventHandler(this.Actualizar_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(112, 279);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(143, 46);
+            this.button1.TabIndex = 21;
+            this.button1.Text = "Agregar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(56, 479);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(10, 23);
+            this.comboBox3.TabIndex = 20;
+            // 
+            // label13
+            // 
+            this.label13.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(867, 495);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(10, 10);
+            this.label13.TabIndex = 19;
+            this.label13.Text = "Eliminar Negocio";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(40, 479);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(10, 23);
+            this.textBox2.TabIndex = 18;
+            // 
+            // label12
+            // 
+            this.label12.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(854, 501);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(12, 10);
+            this.label12.TabIndex = 17;
+            this.label12.Text = "Agregar Producto";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // combonegocio
+            // 
+            this.combonegocio.FormattingEnabled = true;
+            this.combonegocio.Location = new System.Drawing.Point(56, 411);
+            this.combonegocio.Name = "combonegocio";
+            this.combonegocio.Size = new System.Drawing.Size(297, 23);
+            this.combonegocio.TabIndex = 16;
+            // 
+            // label11
+            // 
+            this.label11.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(40, 351);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(360, 47);
+            this.label11.TabIndex = 15;
+            this.label11.Text = "Eliminar Negocio";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtnegocio
+            // 
+            this.txtnegocio.Location = new System.Drawing.Point(40, 174);
+            this.txtnegocio.Name = "txtnegocio";
+            this.txtnegocio.Size = new System.Drawing.Size(298, 23);
+            this.txtnegocio.TabIndex = 14;
+            // 
+            // label10
+            // 
+            this.label10.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(3, 113);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(360, 47);
+            this.label10.TabIndex = 13;
+            this.label10.Text = "Agregar Negocio";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tabPage6
             // 
@@ -718,206 +880,46 @@ namespace ClaseGUI05
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Size = new System.Drawing.Size(873, 511);
             this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "tabPage6";
+            this.tabPage6.Text = "Producto";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // tabPage7
+            // button4
             // 
-            this.tabPage7.Location = new System.Drawing.Point(4, 24);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(873, 511);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "tabPage7";
-            this.tabPage7.UseVisualStyleBackColor = true;
+            this.button4.Location = new System.Drawing.Point(616, 162);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(143, 46);
+            this.button4.TabIndex = 32;
+            this.button4.Text = "Agregar";
+            this.button4.UseVisualStyleBackColor = true;
             // 
-            // label10
+            // textBox1
             // 
-            this.label10.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
+            this.textBox1.Location = new System.Drawing.Point(542, 120);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(298, 23);
+            this.textBox1.TabIndex = 31;
+            // 
+            // label16
+            // 
+            this.label16.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(3, 113);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(361, 47);
-            this.label10.TabIndex = 13;
-            this.label10.Text = "Agregar Negocio";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(518, 70);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(360, 47);
+            this.label16.TabIndex = 30;
+            this.label16.Text = "Eliminar Producto";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtnegocio
+            // button3
             // 
-            this.txtnegocio.Location = new System.Drawing.Point(40, 174);
-            this.txtnegocio.Name = "txtnegocio";
-            this.txtnegocio.Size = new System.Drawing.Size(298, 23);
-            this.txtnegocio.TabIndex = 14;
-            // 
-            // label11
-            // 
-            this.label11.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(40, 351);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(361, 47);
-            this.label11.TabIndex = 15;
-            this.label11.Text = "Eliminar Negocio";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = ((System.Drawing.Image) (resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(709, 13);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(112, 126);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 14;
-            this.pictureBox10.TabStop = false;
-            // 
-            // combonegocio
-            // 
-            this.combonegocio.FormattingEnabled = true;
-            this.combonegocio.Location = new System.Drawing.Point(56, 411);
-            this.combonegocio.Name = "combonegocio";
-            this.combonegocio.Size = new System.Drawing.Size(297, 23);
-            this.combonegocio.TabIndex = 16;
-            // 
-            // label12
-            // 
-            this.label12.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(854, 501);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(12, 10);
-            this.label12.TabIndex = 17;
-            this.label12.Text = "Agregar Producto";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(40, 479);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(10, 23);
-            this.textBox2.TabIndex = 18;
-            // 
-            // label13
-            // 
-            this.label13.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(867, 495);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(10, 10);
-            this.label13.TabIndex = 19;
-            this.label13.Text = "Eliminar Negocio";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(56, 479);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(10, 23);
-            this.comboBox3.TabIndex = 20;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(112, 279);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(144, 46);
-            this.button1.TabIndex = 21;
-            this.button1.Text = "Agregar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // Actualizar
-            // 
-            this.Actualizar.Location = new System.Drawing.Point(568, 388);
-            this.Actualizar.Name = "Actualizar";
-            this.Actualizar.Size = new System.Drawing.Size(144, 46);
-            this.Actualizar.TabIndex = 22;
-            this.Actualizar.Text = "Actualizar";
-            this.Actualizar.UseVisualStyleBackColor = true;
-            this.Actualizar.Click += new System.EventHandler(this.Actualizar_Click);
-            // 
-            // label14
-            // 
-            this.label14.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(-8, 200);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(361, 47);
-            this.label14.TabIndex = 23;
-            this.label14.Text = "Descripcion";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtdes
-            // 
-            this.txtdes.Location = new System.Drawing.Point(40, 250);
-            this.txtdes.Name = "txtdes";
-            this.txtdes.Size = new System.Drawing.Size(298, 23);
-            this.txtdes.TabIndex = 24;
-            // 
-            // datanegocio
-            // 
-            this.datanegocio.AllowUserToAddRows = false;
-            this.datanegocio.AllowUserToDeleteRows = false;
-            this.datanegocio.BackgroundColor = System.Drawing.Color.White;
-            this.datanegocio.ColumnHeadersHeightSizeMode =
-                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.datanegocio.Location = new System.Drawing.Point(389, 98);
-            this.datanegocio.Name = "datanegocio";
-            this.datanegocio.ReadOnly = true;
-            this.datanegocio.Size = new System.Drawing.Size(477, 250);
-            this.datanegocio.TabIndex = 25;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = ((System.Drawing.Image) (resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(141, 16);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(93, 97);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 26;
-            this.pictureBox11.TabStop = false;
-            // 
-            // label15
-            // 
-            this.label15.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(68, 70);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(361, 47);
-            this.label15.TabIndex = 14;
-            this.label15.Text = "Agregar Producto";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtproducto
-            // 
-            this.txtproducto.Location = new System.Drawing.Point(95, 120);
-            this.txtproducto.Name = "txtproducto";
-            this.txtproducto.Size = new System.Drawing.Size(298, 23);
-            this.txtproducto.TabIndex = 15;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(168, 161);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(144, 46);
-            this.button2.TabIndex = 22;
-            this.button2.Text = "Agregar";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = ((System.Drawing.Image) (resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(419, 20);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(93, 97);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 27;
-            this.pictureBox12.TabStop = false;
+            this.button3.Location = new System.Drawing.Point(616, 313);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(143, 46);
+            this.button3.TabIndex = 29;
+            this.button3.Text = "Actualizar";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // dataproducto
             // 
@@ -932,43 +934,157 @@ namespace ClaseGUI05
             this.dataproducto.Size = new System.Drawing.Size(477, 250);
             this.dataproducto.TabIndex = 28;
             // 
-            // button3
+            // pictureBox12
             // 
-            this.button3.Location = new System.Drawing.Point(616, 313);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(144, 46);
-            this.button3.TabIndex = 29;
-            this.button3.Text = "Actualizar";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.pictureBox12.Image = ((System.Drawing.Image) (resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(419, 20);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(93, 97);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox12.TabIndex = 27;
+            this.pictureBox12.TabStop = false;
             // 
-            // label16
+            // button2
             // 
-            this.label16.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
+            this.button2.Location = new System.Drawing.Point(168, 162);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(143, 46);
+            this.button2.TabIndex = 22;
+            this.button2.Text = "Agregar";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // txtproducto
+            // 
+            this.txtproducto.Location = new System.Drawing.Point(94, 120);
+            this.txtproducto.Name = "txtproducto";
+            this.txtproducto.Size = new System.Drawing.Size(298, 23);
+            this.txtproducto.TabIndex = 15;
+            // 
+            // label15
+            // 
+            this.label15.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(518, 70);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(361, 47);
-            this.label16.TabIndex = 30;
-            this.label16.Text = "Eliminar Producto";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(68, 70);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(360, 47);
+            this.label15.TabIndex = 14;
+            this.label15.Text = "Agregar Producto";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // tabPage7
             // 
-            this.textBox1.Location = new System.Drawing.Point(543, 120);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(298, 23);
-            this.textBox1.TabIndex = 31;
+            this.tabPage7.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage7.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("tabPage7.BackgroundImage")));
+            this.tabPage7.Controls.Add(this.button6);
+            this.tabPage7.Controls.Add(this.pictureBox13);
+            this.tabPage7.Controls.Add(this.button5);
+            this.tabPage7.Controls.Add(this.dateOrden);
+            this.tabPage7.Controls.Add(this.label19);
+            this.tabPage7.Controls.Add(this.comboBox2);
+            this.tabPage7.Controls.Add(this.label18);
+            this.tabPage7.Controls.Add(this.txtorden);
+            this.tabPage7.Controls.Add(this.label17);
+            this.tabPage7.Location = new System.Drawing.Point(4, 24);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Size = new System.Drawing.Size(873, 511);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "tabPage7";
             // 
-            // button4
+            // label17
             // 
-            this.button4.Location = new System.Drawing.Point(616, 161);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(144, 46);
-            this.button4.TabIndex = 32;
-            this.button4.Text = "Agregar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.label17.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label17.ForeColor = System.Drawing.Color.White;
+            this.label17.Location = new System.Drawing.Point(-14, 37);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(360, 47);
+            this.label17.TabIndex = 15;
+            this.label17.Text = "Agregar Orden";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtorden
+            // 
+            this.txtorden.Location = new System.Drawing.Point(46, 87);
+            this.txtorden.Name = "txtorden";
+            this.txtorden.Size = new System.Drawing.Size(235, 23);
+            this.txtorden.TabIndex = 16;
+            // 
+            // label18
+            // 
+            this.label18.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label18.ForeColor = System.Drawing.Color.White;
+            this.label18.Location = new System.Drawing.Point(0, 184);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(344, 47);
+            this.label18.TabIndex = 17;
+            this.label18.Text = "Eliminar Orden";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(46, 234);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(231, 23);
+            this.comboBox2.TabIndex = 18;
+            // 
+            // label19
+            // 
+            this.label19.Font = new System.Drawing.Font("Cooper Black", 24F, System.Drawing.FontStyle.Regular,
+                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label19.ForeColor = System.Drawing.Color.White;
+            this.label19.Location = new System.Drawing.Point(389, 37);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(360, 47);
+            this.label19.TabIndex = 19;
+            this.label19.Text = "Historial";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dateOrden
+            // 
+            this.dateOrden.AllowUserToAddRows = false;
+            this.dateOrden.AllowUserToDeleteRows = false;
+            this.dateOrden.BackgroundColor = System.Drawing.Color.White;
+            this.dateOrden.ColumnHeadersHeightSizeMode =
+                System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dateOrden.Location = new System.Drawing.Point(406, 87);
+            this.dateOrden.Name = "dateOrden";
+            this.dateOrden.ReadOnly = true;
+            this.dateOrden.Size = new System.Drawing.Size(343, 335);
+            this.dateOrden.TabIndex = 29;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(502, 440);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(143, 46);
+            this.button5.TabIndex = 30;
+            this.button5.Text = "Actualizar";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = ((System.Drawing.Image) (resources.GetObject("pictureBox13.Image")));
+            this.pictureBox13.Location = new System.Drawing.Point(72, 284);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(209, 202);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 31;
+            this.pictureBox13.TabStop = false;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(97, 135);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(143, 46);
+            this.button6.TabIndex = 32;
+            this.button6.Text = "Agregar";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // frmPrincipal
             // 
@@ -1005,16 +1121,20 @@ namespace ClaseGUI05
             this.groupBox1.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.datagrid)).EndInit();
             this.Negocio.ResumeLayout(false);
             this.Negocio.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.datanegocio)).EndInit();
             this.tabPage6.ResumeLayout(false);
             this.tabPage6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize) (this.datanegocio)).EndInit();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.dataproducto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox12)).EndInit();
+            this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.dateOrden)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox13)).EndInit();
             this.ResumeLayout(false);
         }
 
@@ -1094,5 +1214,14 @@ namespace ClaseGUI05
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.TextBox txtorden;
+        private System.Windows.Forms.DataGridView dateOrden;
     }
 }
